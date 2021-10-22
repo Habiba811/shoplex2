@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_8">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiPropertyName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            app:endIconMode="clear_text"
+            app:errorEnabled="true"
+            app:helperText="@string/Like_color_Size_options_etc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPropertyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/prop"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiPropertyValue"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            app:endIconMode="clear_text"
+            app:errorEnabled="true"
+            app:layout_constraintEnd_toStartOf="@+id/btnAddValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tiPropertyName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPropertyValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/value"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btnAddValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:padding="@dimen/margin_8"
+            app:layout_constraintBottom_toBottomOf="@+id/tiPropertyValue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tiPropertyValue"
+            app:layout_constraintTop_toTopOf="@+id/tiPropertyValue"
+            app:layout_constraintVertical_bias="0.357"
+            app:srcCompat="@drawable/ic_add" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cg_values"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tiPropertyValue">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/btnPropertyConfirm"
+            style="@style/Widget.AppCompat.ActionButton.CloseMode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:text="@string/confirm"
+            android:textColor="@color/secondaryShoplex"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cg_values" />
+
+        <Button
+            android:id="@+id/btnCancelProp"
+            style="@style/Widget.AppCompat.ActionButton.CloseMode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:text="@android:string/cancel"
+            android:textColor="@color/redShopex"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnPropertyConfirm"
+            app:layout_constraintEnd_toStartOf="@+id/btnPropertyConfirm"
+            app:layout_constraintTop_toTopOf="@+id/btnPropertyConfirm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

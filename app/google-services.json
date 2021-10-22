@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790941766786",
+    "project_id": "shoplex-17f64",
+    "storage_bucket": "shoplex-17f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790941766786:android:ed246f0a81618c986ad09b",
+        "android_client_info": {
+          "package_name": "com.trueandtrust.shoplex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790941766786-9867qm4nrm2imdn267jf5dhi196r97ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trueandtrust.shoplex",
+            "certificate_hash": "c3914f8dcd87013a7566660c2493e0805d98aead"
+          }
+        },
+        {
+          "client_id": "790941766786-j3ocfdlhgsd20q7l4q1abcubuuuavcrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCowKJyiI_8mfosUsl7xF0Ev5kGOkv2Y6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790941766786-j3ocfdlhgsd20q7l4q1abcubuuuavcrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

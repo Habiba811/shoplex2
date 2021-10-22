@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.trueandtrust.shoplex.model.extra.DateUtils"/>
+        <variable
+            name="message"
+            type="com.trueandtrust.shoplex.model.pojo.Message" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_8"
+        android:paddingRight="@dimen/margin_8"
+        android:paddingBottom="@dimen/margin_8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvSendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/send_bg"
+                android:padding="@dimen/margin_8"
+                android:text="@{message.message}"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvRightDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drawable_padding"
+                android:text="@{DateUtils.getDate(message.messageDate)}"
+                android:drawableRight="@{(message.isSent? (message.isRead? @drawable/ic_readdone:@drawable/ic_sentdone):@drawable/ic_right)}"
+                android:drawablePadding="@dimen/margin_4"
+                android:textColor="@color/grey_font"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvSendMessage"
+                app:layout_constraintTop_toBottomOf="@+id/tvSendMessage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

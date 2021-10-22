@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.trueandtrust.shoplex.model.extra.DateUtils"/>
+        <variable
+            name="message"
+            type="com.trueandtrust.shoplex.model.pojo.Message" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_8"
+        android:paddingRight="@dimen/margin_8">
+
+        <TextView
+            android:id="@+id/tvReplyMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:background="@drawable/replay_bg"
+            android:padding="@dimen/margin_8"
+            android:text="@{message.message}"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLeftDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/drawable_padding"
+            android:text="@{DateUtils.getDate(message.messageDate)}"
+            android:textColor="@color/grey_font"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvReplyMessage"
+            app:layout_constraintTop_toBottomOf="@+id/tvReplyMessage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

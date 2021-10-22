@@ -1,0 +1,277 @@
+<resources>
+    <string name="PRODUCT_KEY">PRODUCT</string>
+    <string name="app_name">ShopLex Store</string>
+    <string name="product_name">Name</string>
+    <string name="old_price_strike"><strike>%s</strike></string>
+    <string name="discount">Discount</string>
+    <string name="newPrice">New Price</string>
+    <string name="zero">0</string>
+    <string name="todo">TODO</string>
+    <string name="add_product">Add Product</string>
+    <string name="description">Description</string>
+    <string name="fashion">Fashion</string>
+    <string name="item">Item</string>
+    <string name="category">Category</string>
+    <string name="men">Men</string>
+    <string name="saleOff">%s Off Sale</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="store_name">Store Name</string>
+    <string name="offers">Offers</string>
+    <string name="basic">Bronze</string>
+    <string name="price">Price</string>
+    <string name="_2_weeks_of_ads">2 Weeks</string>
+    <string name="price1">20 L.E.</string>
+
+    <string name="buy_now">Sale Now</string>
+    <string name="standard">Silver</string>
+    <string name="_1_month_of_ads">1 Month</string>
+    <string name="price2">35 L.E.</string>
+    <string name="_3_month_of_ads">3 Months</string>
+    <string name="price3">75 L.E.</string>
+    <string name="premium">Gold</string>
+    <string name="confirm">Confirm</string>
+
+    <string-array name="arr_category">
+        <item>Fashion</item>
+        <item>Health&amp;Care</item>
+        <item>Phones</item>
+        <item>Electronics</item>
+        <item>Accessories</item>
+        <item>Books</item>
+    </string-array>
+
+    <string name="title_activity_product_details">ProductDetails</string>
+
+    <string name="product">Product</string>
+    <string name="reviews">Reviews</string>
+    <string name="all_properties">All Properties</string>
+    <string name="Plus_Sign">+</string>
+
+
+    <string name="home">Home</string>
+    <string name="products">Products</string>
+    <string name="chat">Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="LastOrder">Last Orders</string>
+    <string name="StoreLocation">Store Location</string>
+    <string name="Language">اللغه العربيه</string>
+    <string name="Notification">Notification</string>
+    <string name="Logout">Logout</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="productName">Product Name</string>
+    <string name="brand">Brand Name</string>
+    <string name="stauts">Status</string>
+    <string name="location">Location</string>
+    <string name="currentProduct">Current Product</string>
+    <string name="old_price"><strike>Old Price</strike></string>
+    <string name="LE">%s L.E</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="new_price">New Price</string>
+    <string name="sold">%s Sold</string>
+    <string name="Required">Required</string>
+    <string name="min_description_err">Minimum Product Description is 30 Characters</string>
+    <string name="min_product_name_err">Minimum Name is 5 characters</string>
+    <string name="percentage">%</string>
+    <string name="sale">Sale</string>
+    <string name="originalPrice">Original Price</string>
+    <string name="priceRange">10-100000 L.E</string>
+    <string name="minPrice">10</string>
+    <string name="afterDiscount">After Discount</string>
+    <string name="maxDiscount">90</string>
+    <string name="discountRange">0-90 %</string>
+    <string name="search">Search</string>
+    <string name="user_name">User Name</string>
+    <string name="sales_Off">Sales Off</string>
+    <string name="all_review">Over All</string>
+    <string name="rating">All Rating</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="date">Date</string>
+    <string name="comment">Comment</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="Hello">Hello</string>
+    <string name="enter_your_product_properties">Enter Your Product Properties</string>
+    <string name="prop">Property</string>
+    <string name="value">Value</string>
+    <string name="property">Properties</string>
+    <string name="Like_color_Size_options_etc">Like color-Size-options-etc</string>
+    <string name="days">%s Days</string>
+
+    <string name="email">E-Mail</string>
+    <string name="forgotPassword">Forgot your password</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="choose_location">Choose Your Location</string>
+    <string name="phone">Phone</string>
+    <string name="or">________________________ OR ________________________</string>
+    <string name="new_user">New User ? </string>
+    <string name="min_store_name_err">Minimum Name is 5 characters</string>
+    <string name="min_password_err">Minimum Password is 8 characters</string>
+    <string name="not_match">Not Match</string>
+    <string name="require_email">Email Required</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="reset">Reset</string>
+    <string name="close_dialog">Close</string>
+    <string name="NoReviews">No Reviews Yet!</string>
+    <string name="email_send">Email Send</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="authentication_fail">Authentication failed.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="currentOrders">Current Orders</string>
+    <string name="update_product">Update Product</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="propertyDialog">Property Dialog</string>
+    <string name="alertonImageRemove">Please wait until image uploaded, then remove</string>
+    <string name="Report">Report</string>
+    <string name="proplem">Please share us what is your problem!!</string>
+    <string name="your_report">Your Report</string>
+    <string name="send_report">Send Report</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="CHAT_TITLE_KEY">CHAT_TITLE_KEY</string>
+    <string name="Products">Products</string>
+    <string name="Reviews">Reviews</string>
+    <string name="Product">Product Removed</string>
+    <string name="Success">"Success: "</string>
+    <string name="Failed">Failed to remove image</string>
+    <string name="Message_Received">Message Received ...</string>
+    <string name="New_Token">New Token</string>
+    <string name="Max">Max</string>
+    <string name="Please_Select_Your_Product_Images">Please Select Your Product Images</string>
+    <string name="Fetching_FCM_registration_token_failed">Fetching FCM registration token failed</string>
+    <string name="Please_wait_until_your_account_accepted">Please wait until your account accepted!</string>
+    <string name="Your_Location_Now">Your Location Now</string>
+    <string name="LOCATION_STORE">" LOCATION STORE"</string>
+    <string name="You_CLicked">"You CLicked "</string>
+    <string name="Error">Error</string>
+    <string name="title">title</string>
+    <string name="body">body</string>
+    <string name="actionstring">actionstring</string>
+    <string name="Location">Location</string>
+    <string name="AddLoc">AddLoc</string>
+    <string name="custom">custom://</string>
+    <string name="image">image/*</string>
+    <string name="Please_wait_until_image_uploaded_then_remove">Please wait until image uploaded, then remove!</string>
+    <string name="logOut">Logout</string>
+    <string name="logoutMessage">Are You Sure You Want To Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logoutSuccess">Logout Success</string>
+    <string name="delete">Delete Item</string>
+    <string name="deleteMessage">Are You Sure You Want To Delete This Item?</string>
+    <string name="deleteSuccess">Delete Success</string>
+    <string name="onelocation">You must have at least one location</string>
+    <string name="customerlocation">Can"'"t Identify Customer Location</string>
+    <string name="discountAdded">Discount Added Successfully</string>
+    <string name="discountFailed">Failed to add Discount</string>
+    <string name="create_success">Success to create your account!</string>
+    <string name="wait">Please wait until your account accepted!</string>
+    <string name="failed_store">Failed to add store!</string>
+    <string name="login_failed">Login Failed!</string>
+    <string name="payment_cancelled">Payment Canceled!</string>
+    <string name="payment_complete">Payment Complete!</string>
+    <string name="payment_failed">Payment Failed!</string>
+    <string name="valid_phone">Please Enter Valid Mobile(+2)</string>
+    <string name="choose">Choose</string>
+    <string name="choose_image">Please Choose Image</string>
+    <string name="product_added">Product Added Successfully!</string>
+    <string name="failed_payment">Failed to load payment method!</string>
+    <string name="valid_address">Failed please select valid address!</string>
+    <string name="noitem">There Is No Items Yet!!!</string>
+
+    <string name="reportsuccess">Your Report has sent Thank You</string>
+    <string name="max">Max</string>
+    <string name="imageSelected">Please Select Your Product Images</string>
+    <string name="discountType">Type</string>
+    <string name="discount_type">Discount Type</string>
+    <string name="addresses">"addresses"</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="Name">Name</string>
+    <string name="phone_hint">+201101234567</string>
+    <string name="Confirmpassword">Confirm password</string>
+    <string name="orLoginvia">Or Login Via</string>
+    <string name="orSignUpvia">Or Sign Up Via</string>
+    <string name="or_login_with">Or Login With</string>
+    <string name="Delivered">Delivered</string>
+    <string name="NA">N/A</string>
+    <string name="NoInternetConnection">Your are currently offline please go online back and try again!</string>
+    <string name="success_create_account">Success to create your account!</string>
+    <string name="failed">Failed</string>
+    <string name="ProductAddedSuccessfully">Product Added Successfully!</string>
+    <string name="Failed_load_payment_method">Failed to load payment method</string>
+    <string name="minimunPayment">You are going to pay %s L.E. for your product but unfortunately minimum charge is 10 L.E.</string>
+    <string name="welcome_to_shoplex">Welcome to ShopLex</string>
+
+    <string-array name="arr_type_discount">
+        <item>Percentage</item>
+        <item>Fixed</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Fashion</item>
+        <item>Health Care</item>
+        <item>Phone and Tablets</item>
+        <item>Electronics</item>
+        <item>Accessories</item>
+        <item>Books</item>
+    </string-array>
+
+    <string-array name="arr_subFashion">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kids</item>
+    </string-array>
+
+    <string-array name="arr_subHealthCare">
+        <item>Haircare</item>
+        <item>Perfume</item>
+        <item>Makeup</item>
+    </string-array>
+
+    <string-array name="arr_subPhoneAndTablet">
+        <item>Phones</item>
+        <item>Tablets</item>
+        <item>I_Pad</item>
+    </string-array>
+
+    <string-array name="arr_subElectronic">
+        <item>TVS</item>
+        <item>Audio</item>
+        <item>Smart_Watches</item>
+        <item>Cameras</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="arr_subAccessories">
+        <item>Jewellery</item>
+        <item>Watches</item>
+        <item>Belts</item>
+        <item>Phone_Cases</item>
+        <item>Cables</item>
+        <item>Charges</item>
+        <item>Selfie_Stick</item>
+    </string-array>
+
+    <string-array name="arr_subBook">
+        <item> Art_and_Humanities</item>
+        <item>Fiction</item>
+        <item>Entertainment</item>
+        <item>Science_and_Technology</item>
+        <item>Education</item>
+    </string-array>
+
+</resources>

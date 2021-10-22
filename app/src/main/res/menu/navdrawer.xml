@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/lastOrderFragment"
+            android:icon="@drawable/orders"
+            android:title="@string/LastOrder" />
+        <item
+            android:id="@+id/locationFragment"
+            android:icon="@drawable/location_on"
+            android:title="@string/StoreLocation"/>
+        <item
+            android:id="@+id/Language"
+            android:icon="@drawable/language"
+            android:title="@string/Language"/>
+    <item
+        android:icon="@drawable/notifications"
+        android:title="@string/Notification"
+        app:actionLayout="@layout/onoff_toggle"
+        android:id="@+id/checkable_menu"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_report"
+        android:title="@string/Report"/>
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/logout"
+        android:title="@string/Logout"/>
+</menu>

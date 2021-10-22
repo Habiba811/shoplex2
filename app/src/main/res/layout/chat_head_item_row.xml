@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="chatHead"
+            type="com.trueandtrust.shoplex.model.pojo.ChatHead" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImgChatHead"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/height_50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgChatHead"
+                android:layout_width="@dimen/width_75"
+                android:layout_height="@dimen/width_75"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/todo"
+                tools:srcCompat="@tools:sample/avatars" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImg"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="@dimen/margin_16"
+            app:cardCornerRadius="@dimen/height_50"
+            app:cardElevation="@dimen/margin_6"
+            android:layout_marginBottom="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_4"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@id/cardImgChatHead"
+            android:layout_alignTop="@id/cardImgChatHead"
+            android:backgroundTint="#1DDA25"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvUserNameChatHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@{chatHead.userName}"
+            style="@style/TitleColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cardImgChatHead"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvProductNameChatHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@{chatHead.productName}"
+            app:layout_constraintStart_toStartOf="@+id/tvUserNameChatHead"
+            app:layout_constraintTop_toBottomOf="@+id/tvUserNameChatHead" />
+
+        <TextView
+            android:id="@+id/tvNumOfMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@drawable/solidbutton"
+            android:paddingLeft="@dimen/padding_6"
+            android:paddingRight="@dimen/padding_6"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/tvUserNameChatHead"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvUserNameChatHead"
+            android:visibility="invisible"
+            tools:text="@{`` + chatHead.numOfMessage}" />
+
+        <TextView
+            android:id="@+id/tvPriceChatHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:text="@{`` + chatHead.price}"
+            app:layout_constraintBottom_toBottomOf="@+id/tvProductNameChatHead"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvProductNameChatHead" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/margin_4"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardImgChatHead" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

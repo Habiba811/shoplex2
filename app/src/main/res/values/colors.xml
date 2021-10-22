@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#1C2D7A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#667EEA</color>
+    <color name="gray">#565758</color>
+    <color name="lightgray">#EEEEEE</color>
+    <color name="primaryShoplex">#FFD600</color>
+    <color name="secondaryShoplex">#002C56</color>
+    <color name="light_blue">#F4F6FF</color>
+    <color name="dark_blue">#084f93</color>
+    <color name="red">#C5372D</color>
+    <color name="yellow">#FFC107</color>
+    <color name="redShopex">#ff5757</color>
+    <color name="yellowShopex">#ffde59</color>
+    <color name="teal">#2b6777</color>
+    <color name="orangeShopex">#ff914d</color>
+    <color name="greenShopex">#c9e265</color>
+    <color name="blueShopex">#38b6ff</color>
+    <color name="grayShopex">#a6a6a6</color>
+    <color name="dkblue">#0278ae</color>
+    <color name="yellowDark">#FDC10A</color>
+    <color name="yellowLight">#FAD134</color>
+
+    <color name="blueshop">#65AFE4</color>
+    <!--    <color name="google">#DB4437</color>-->
+    <color name="facebook">#3b5998 </color>
+    <color name="google">#db4a39</color>
+    <color name="quantum_googblue900">#1c3aa9</color>
+    <color name="logo_text">#E67F00</color>
+
+    <color name="orangeDark">#FF8533</color>
+    <color name="orangeLight">#FF9E44</color>
+    <color name="orangeButtons">#FF9E44</color>
+
+</resources>
